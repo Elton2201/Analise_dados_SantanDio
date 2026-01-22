@@ -11,7 +11,7 @@ st.set_page_config(page_title="Vendas Pro", page_icon="📊", layout="wide")
 st.markdown("""
     <style>
     .stMetric { 
-        background-color: #ffffff; 
+        background-color: #000; 
         padding: 20px; 
         border-radius: 15px; 
         box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
@@ -123,3 +123,4 @@ if df is not None:
 else:
     # Tela Inicial
     st.markdown("<div style='text-align: center; padding: 50px;'><h2>Aguardando Dados...</h2><p>Suba um arquivo ou use os dados de teste na lateral.</p></div>", unsafe_allow_html=True)
+
