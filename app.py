@@ -9,7 +9,7 @@ st.set_page_config(page_title="Vendas Pro", layout="wide")
 # CSS para Estilo
 st.markdown("""
     <style>
-    .stMetric { background-color: #ffffff; padding: 20px; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 1px solid #f0f2f6; }
+    .stMetric { background-color: #000; padding: 20px; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 1px solid #f0f2f6; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -88,3 +88,4 @@ else:
     st.markdown("<h1 style='text-align: center;'>Bem-vindo ao Vendas Pro</h1>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center;'>Escolha uma opção na barra lateral para começar.</p>", unsafe_allow_html=True)
     
+
