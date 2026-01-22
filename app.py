@@ -11,7 +11,7 @@ st.markdown("""
     <style>
     .block-container { padding-top: 2rem; }
     .stMetric { 
-        background-color: #ffffff; 
+        background-color: #000; 
         padding: 20px; 
         border-radius: 15px; 
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -127,3 +127,4 @@ else:
             <p>Baixe o modelo na barra lateral e faça o upload para visualizar os gráficos.</p>
         </div>
         """, unsafe_allow_html=True)
+
