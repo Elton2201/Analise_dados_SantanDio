@@ -84,3 +84,4 @@ else:
     # Tela de espera caso nada tenha sido selecionado
     st.markdown("<h1 style='text-align: center;'>Bem-vindo ao Vendas Pro</h1>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center;'>Escolha uma opção na barra lateral para começar.</p>", unsafe_allow_html=True)
+    
